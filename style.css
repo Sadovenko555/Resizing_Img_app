@@ -1,7 +1,7 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family:  Arial, sans-serif;
+    background-color: #bbd5dd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,12 +13,14 @@ body {
 
 
 header {
+    font-family: 'Black Ops One';
     background-color: #FFF;
-    color: #d662cc;
+    color: #62bbd6;
     text-align: center;
     padding: 20px ;
     margin: 20px;
-    border-bottom: 3px solid #00b35a;
+    border-bottom: 15px solid #62bbd6;
+    border-radius: 15px;
 }
 
 h1 {
@@ -28,10 +30,12 @@ h1 {
 
 
 main {
-    background-color: #fff;
+    background-color: #f0f0f0;
+    margin-top: 20px;
     padding: 10px 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 15px;
 }
 
 
@@ -42,36 +46,37 @@ input[type="file"] {
 
 label.upload-button {
     display: inline-block;
-    background-color: #00b35a;
+    background-color: #62bbd6;
     color: #fff;
     padding: 10px 20px;
     margin-top: 10px;
     cursor: pointer;
-   
+    border-radius: 15px;
     transition: background-color 0.3s ease;
     font-size: 18px;
 }
 
 label.upload-button:hover {
-    background-color: #d662cc;
+    background-color: #70d662;
 }
 
 
 button {
     display: block;
-    background-color: #00b35a;
+    background-color: #62bbd6;
     color: #fff;
     border: none;
     padding: 10px 20px;
     margin: 20px auto;
     cursor: pointer;
-    
+    border-radius: 15px;
+
     transition: background-color 0.3s ease;
     font-size: 18px;
 }
 
 button:hover {
-    background-color: #d662cc;
+    background-color: #70d662;
 }
 
 
