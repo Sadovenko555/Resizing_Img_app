@@ -16,7 +16,7 @@ header {
     background-color: #FFF;
     color: #d662cc;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px ;
     margin: 20px;
     border-bottom: 3px solid #00b35a;
 }
@@ -29,8 +29,7 @@ h1 {
 
 main {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -48,7 +47,7 @@ label.upload-button {
     padding: 10px 20px;
     margin-top: 10px;
     cursor: pointer;
-    border-radius: 5px;
+   
     transition: background-color 0.3s ease;
     font-size: 18px;
 }
@@ -64,9 +63,9 @@ button {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    margin: 10px auto;
+    margin: 20px auto;
     cursor: pointer;
-    border-radius: 5px;
+    
     transition: background-color 0.3s ease;
     font-size: 18px;
 }
