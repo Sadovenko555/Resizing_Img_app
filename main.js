@@ -3,7 +3,7 @@ function resizeImages() {
     const files = input.files;
 
     if (files.length === 0) {
-        alert('Выберите хотя бы одно изображение.');
+        alert('Select at least one image.');
         return;
     }
 
