@@ -3,24 +3,40 @@
   <head>
     <title>Resize_Img</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="/icon/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="/icon/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/icon/favicon-16x16.png"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/icon/favicon-32x32.png"
+    />
   </head>
   <body>
     <header>
-      <h1>RESIZING_IMG_APP</h1>
+      <h1>Image Resizer</h1>
     </header>
     <main>
       <input type="file" id="imageInput" accept="image/*" multiple />
-      <label for="imageInput" class="upload-button">Upload Images</label>
+      <label for="imageInput" class="upload-button">Choose Images</label>
       <button onclick="resizeImages()">Resize</button>
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p id="imageCount">Number of Images: 0</p>
+      <div id="imagePreviews" class="image-previews"></div>
     </main>
     <footer>
-      <p>&copy; OBLAGON_CORP</p>
+      <p>&copy; 2023 Oblagon</p>
     </footer>
     <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
