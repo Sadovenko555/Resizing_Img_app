@@ -1,7 +1,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(45deg, #62bbd6, #70d662); 
+  background: linear-gradient(45deg, #62bbd6, #70d662);
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,7 +17,8 @@ header {
   text-align: center;
   padding: 20px;
   margin: 20px;
-  border-bottom: 15px solid #70d662;
+  border-bottom: 15px solid #70d662; 
+  border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -34,6 +35,7 @@ main {
   text-align: center;
   border-radius: 15px;
 }
+
 
 
 
