@@ -1,6 +1,7 @@
+
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #bbd5dd;
+  background: linear-gradient(45deg, #62bbd6, #70d662); 
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,8 +17,7 @@ header {
   text-align: center;
   padding: 20px;
   margin: 20px;
-  border-bottom: 15px solid #62bbd6;
-  border-radius: 15px;
+  border-bottom: 15px solid #70d662;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -29,11 +29,13 @@ h1 {
 main {
   background-color: #f0f0f0;
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 20px; 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 15px;
 }
+
+
 
 input[type="file"] {
   display: none;
