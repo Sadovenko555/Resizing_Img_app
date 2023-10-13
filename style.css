@@ -45,7 +45,7 @@ input[type="file"] {
 
 label.upload-button {
   display: inline-block;
-  background-color: #62bbd6;
+  background-color: #70d662;
   color: #fff;
   padding: 10px 20px;
   margin-top: 10px;
@@ -61,7 +61,7 @@ label.upload-button:hover {
 
 button {
   display: block;
-  background-color: #62bbd6;
+  background-color: #70d662;
   color: #fff;
   border: none;
   padding: 10px 20px;
